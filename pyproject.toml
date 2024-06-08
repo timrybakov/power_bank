@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "power-bank"
+version = "0.1.0"
+description = ""
+authors = ["timrybakov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+sqlalchemy = "^2.0.29"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+psycopg = "^3.1.18"
+uvicorn = "^0.29.0"
+pydantic-settings = "^2.2.1"
+python-dotenv = "^1.0.1"
+aiofiles = "^23.2.1"
+python-multipart = "^0.0.9"
+twilio = "^9.0.4"
+redis = "^5.0.3"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+websocket-client = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
